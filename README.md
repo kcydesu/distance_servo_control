@@ -28,8 +28,8 @@ Check the folder to see if there is a ```/src``` folder, and if not, create it. 
 Run the following set of commands to copy the files from this repository into your catkin workspace:
 ```
 cd src
-wget https://raw.githubusercontent.com/kcydesu/distance_serve_control/master/src/distPublisher.py
-wget https://raw.githubusercontent.com/kcydesu/distance_serve_control/master/src/servoSub.py
+wget https://raw.githubusercontent.com/kcydesu/distance_servo_control/master/src/distPublisher.py
+wget https://raw.githubusercontent.com/kcydesu/distance_servo_control/master/src/servoSub.py
 cd ~/catkin_ws
 catkin_make
 . ~/catkin_ws/devel/setup.bash
